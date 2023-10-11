@@ -1,0 +1,73 @@
+body{
+    margin: 1%;
+    
+}
+header{
+    width: 100%;
+    border: 2px solid black;
+}
+h1{
+    color:green;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+main{
+display: flex;
+flex-direction: row;
+justify-content: space-between;;
+}
+
+aside,article{
+    margin-top: 0.5%;
+    width: 33%;
+    height: 250px;
+}
+
+aside{
+
+    border: 1px dotted blue;
+}
+
+article{
+    border: 1px solid green;
+    overflow: scroll;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    
+
+}
+ul li> ul{
+    display: none;
+}
+ul li:hover ul{
+    display: block;
+    background-color: green;
+}
+
+table, td, th{
+    border: 1px solid;
+
+}
+
+table{
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+#article2::first-letter{
+font-size: 300%;
+float: left;
+text-shadow: -5px 5px lightgray;
+}
+
+
+
+
+
+
