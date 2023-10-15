@@ -37,16 +37,21 @@ ul{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    list-style: none;
-    
-
+    list-style-type:none;;
 }
+
 ul li> ul{
     display: none;
 }
-ul li:hover ul{
+ul li:hover ul {
     display: block;
     background-color: green;
+    
+}
+
+ul li:hover li{
+    border: 1px solid red;
+
 }
 
 table, td, th{
